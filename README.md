@@ -1,52 +1,53 @@
-# Analisis Perilaku Konsumen dan Pola Pembelanjaan di Berbagai Pusat Perbelanjaan
+# Consumer Behavior and Shopping Patterns Analysis Across Multiple Shopping Malls
 
 ## Repository Outline
-Repository ini berisi proyek analisis data yang bertujuan untuk memahami perilaku belanja konsumen berdasarkan data transaksi dari berbagai pusat perbelanjaan. Analisis difokuskan pada kategori produk, demografi pelanggan, metode pembayaran, dan waktu transaksi.
+This repository contains a data analysis project aimed at understanding consumer shopping behavior based on transaction data from various shopping malls. The analysis focuses on product categories, customer demographics, payment methods, and transaction time.
 
 ```
-1. dataset.csv - Berisi data yang akan diolah
-2. notebook.ipynb - Notebook yang berisi pengolahan data dengan python
-3. description.md - Berisi penjelasan singkat tentang project yang dibuat
+1. dataset.csv - Dataset to be processed  
+2. notebook.ipynb - Notebook containing data processing with Python  
+3. description.md - Short project description  
 
 ```
 
 ## Problem Background
-Di tengah persaingan ritel modern yang semakin kompetitif, memahami perilaku pelanggan menjadi kunci utama dalam menyusun strategi bisnis yang efektif. Dataset ini berisi catatan transaksi pelanggan dari berbagai pusat belanja, lengkap dengan atribut penting seperti kategori produk, metode pembayaran, usia, dan jenis kelamin.
-Dengan menganalisis data ini, perusahaan ritel dapat memahami pola belanja pelanggan, mengetahui produk mana yang paling diminati, melihat tren berdasarkan usia dan gender, serta menilai seberapa efektif pusat belanja tertentu dalam meningkatkan penjualan. Memanfaatkan data ini secara mendalam memungkinkan perusahaan untuk merancang strategi pemasaran yang lebih tepat sasaran, mengelola stok barang dengan lebih efisien, dan meningkatkan pengalaman pelanggan secara keseluruhan. 
+In today’s highly competitive retail environment, understanding customer behavior is key to designing effective business strategies. This dataset contains customer transaction records from multiple shopping malls, including attributes such as product categories, payment methods, age, and gender.
+
+By analyzing this data, retailers can uncover shopping patterns, identify the most popular products, explore trends across different age and gender groups, and evaluate the effectiveness of shopping malls in boosting sales. Leveraging these insights enables businesses to develop targeted marketing strategies, manage inventory more efficiently, and enhance overall customer experience.
 
 ## Project Output
-Output dari proyek ini berupa:
+The outputs of this project include:
 
-1. Analisis Statistik Deskriptif
-Menggambarkan rata-rata, median, dan distribusi total belanja pelanggan berdasarkan kategori produk, usia, gender, metode pembayaran, dan lokasi shopping mall.
+1. Descriptive Statistical Analysis
 
-2. Analisis Statistik Inferensial
-Melakukan uji perbedaan rata-rata belanja antar kelompok gender dan kelompok umur menggunakan ANOVA, untuk mengetahui apakah perbedaan tersebut signifikan secara statistik.
+- Summarizes averages, medians, and distribution of customer spending across product categories, age, gender, payment methods, and shopping mall locations.
 
-3. Laporan & Insight Bisnis
-Rangkuman temuan dari analisis dalam bentuk insight yang dapat digunakan sebagai dasar pengambilan keputusan bisnis.
+2. Inferential Statistical Analysis
+
+- Conducts hypothesis testing (ANOVA) to compare average spending across gender and age groups, identifying statistically significant differences.
+
+3. Business Insights & Report
+
+- Provides a summary of findings in the form of actionable insights to support business decision-making.
 
 ## Data
-Sumber data yang saya gunakan didapatkan dari website kaggle dengan nama file dataset customer_shopping_data dimana data tersebut berisikan data penjualan di berbagai shopping mall di wilayah Istanbul. Terdapat 10 kolom dan 99.457 baris data yang akan kita gunakan.  
+The dataset comes from Kaggle under the name Customer Shopping Dataset, containing transaction data from shopping malls in Istanbul. It consists of 99,457 rows and 10 columns, covering both numerical and categorical features.
 
 ## Method
-Dalam proyek ini, kami menerapkan pendekatan analisis data statistik deskriptif dan inferensial.
+This project applies both Descriptive and Inferential Statistical Analysis to derive insights from customer transaction data.
+
 ## Stacks
-Proyek ini menggunakan pendekatan Data Analysis berbasis Statistik Deskriptif dan Inferensial untuk mengolah dan menarik insight dari data transaksi pelanggan. Dengan menggunakan bahasa pemrograman python (pandas) dan juga melakukan pendekatan metode :
-1. Data Cleaning 
-2. Exploration And Analysis
-3. Data Visualisasi
+The project is developed using Python (Pandas) with the following approaches:
+
+1. Data Cleaning
+2. Exploration and Analysis
+3. Data Visualization
 
 ## Reference
-Dataset - https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset <br>
-Query Data Visualization - https://github.com/yuda-notes/teaching-notes/blob/main/samples/sample-visualizations.ipynb <br>
-Query - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.query.html <br>
-Data Visualization - https://public.tableau.com/app/profile/ilham.maulud/viz/Milestone_17526809650100/Main?publish=yes
-
-
----
-
-**Referensi tambahan:**
+- Dataset: https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset <br>
+- Query Data Visualization: https://github.com/yuda-notes/teaching-notes/blob/main/samples/sample-visualizations.ipynb <br>
+- Query: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.query.html <br>
+- Data Visualization: https://public.tableau.com/app/profile/ilham.maulud/viz/Milestone_17526809650100/Main?publish=yes
 - [Basic Writing and Syntax on Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Contoh readme](https://github.com/fahmimnalfrzki/Swift-XRT-Automation)
 - [Another example](https://github.com/sanggusti/final_bangkit) (**Must read**)
