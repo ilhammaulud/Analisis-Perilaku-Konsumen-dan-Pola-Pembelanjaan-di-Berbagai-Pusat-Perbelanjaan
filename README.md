@@ -7,7 +7,6 @@ This repository contains a data analysis project aimed at understanding consumer
 1. dataset.csv - Dataset to be processed  
 2. notebook.ipynb - Notebook containing data processing with Python  
 3. description.md - Short project description  
-
 ```
 
 ## Problem Background
@@ -48,7 +47,5 @@ The project is developed using Python (Pandas) with the following approaches:
 - Query Data Visualization: https://github.com/yuda-notes/teaching-notes/blob/main/samples/sample-visualizations.ipynb <br>
 - Query: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.query.html <br>
 - Data Visualization: https://public.tableau.com/app/profile/ilham.maulud/viz/Milestone_17526809650100/Main?publish=yes
-- [Basic Writing and Syntax on Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Contoh readme](https://github.com/fahmimnalfrzki/Swift-XRT-Automation)
-- [Another example](https://github.com/sanggusti/final_bangkit) (**Must read**)
-- [Additional reference](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+
+
